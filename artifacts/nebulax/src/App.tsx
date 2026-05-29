@@ -16,6 +16,7 @@ import ISS from "./pages/ISS";
 import Asteroids from "./pages/Asteroids";
 import SolarSystem from "./pages/SolarSystem";
 import About from "./pages/About";
+import SpaceWeather from "./pages/SpaceWeather";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ function Router() {
         <Route path="/iss" component={ISS} />
         <Route path="/asteroids" component={Asteroids} />
         <Route path="/solar-system" component={SolarSystem} />
+        <Route path="/space-weather" component={SpaceWeather} />
         <Route path="/about" component={About} />
         <Route component={NotFound} />
       </Switch>

@@ -10,6 +10,7 @@ export default function Navbar() {
     { href: "/iss", label: "ISS" },
     { href: "/asteroids", label: "Asteroids" },
     { href: "/solar-system", label: "Solar System" },
+    { href: "/space-weather", label: "Space Weather" },
     { href: "/about", label: "About" },
   ];
 

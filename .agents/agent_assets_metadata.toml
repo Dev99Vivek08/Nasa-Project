@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "zkXDa94gsBONVSDnzHEkC"
+uri = "file://nebulax-source.zip"
+type = "unspecified"
+title = "NebulaX — Full Source Code + HTML Preview"
